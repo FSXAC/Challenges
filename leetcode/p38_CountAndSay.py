@@ -18,7 +18,7 @@ class Solution:
             return '1'
         
         # Other cases
-        prevStr = countAndSay(n - 1)
+        prevStr = self.countAndSay(n - 1)
 
         # Easy case
         if len(prevStr) == 1:
@@ -44,5 +44,5 @@ class Solution:
                 count = 0
             
             index += 1
-        
-    return retStr
+            
+        return retStr
